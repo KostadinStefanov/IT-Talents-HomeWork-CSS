@@ -1,0 +1,60 @@
+@CHARSET "UTF-8";
+
+
+
+#container {
+	width: 1170px;
+	margin: 0 auto;	
+}
+
+
+#container > footer, #container > header {
+	min-height: 80px;
+	margin: 10px auto;
+}
+
+#container > footer {
+	background-color: blue;
+}
+#container > header {
+	background-color: black;
+}
+
+#container > section {
+	min-height: 500px;
+	display: inline-block;
+	width: 100%;
+}
+
+
+#container > section > aside.left {
+	min-height: inherit;
+	display: inline-block;
+	float: left;
+	width: 22.5%;
+	background-color: purple;
+	margin-right: 30px;
+
+	
+}
+
+#container > section > aside.right {
+	min-height: inherit;
+	display: inline-block;
+	float: right;
+	width: 22.5%;	
+	background-color: red;
+
+}
+
+#container > section > article {
+	width: 50%;
+	display: inline-block;
+	background-color: darkgreen;
+	min-height: inherit;
+	margin: 0 auto;
+	float: left;
+
+}
+
+

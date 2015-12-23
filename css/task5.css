@@ -1,0 +1,50 @@
+#wrapper{
+    width: 80%;
+    margin: 0 auto;
+}
+
+#innerwrapper{
+	width: 92.5%;
+	margin: 0 auto;
+}
+header h3{
+	width: 100%;
+    background-color: blue;
+    color: whitesmoke;
+    font-weight: bold;
+    padding-left: 10px;
+	font-family: sans-serif;
+}
+
+h2{
+    font-family: sans-serif;
+    font-weight:bold;
+    font-size: 18px
+}
+
+.under{
+    color: darkgrey;
+    font-size: 14px;
+    margin: 4px 0;
+	font-family: sans-serif;
+}
+
+article{
+	margin-bottom: 10px;
+    font-family: sans-serif;
+    font-size: 16px;
+    border: 1px solid green;  
+    background-color: whitesmoke;
+	padding-left: 5px;
+}
+
+article h3{
+    background-color: forestgreen;
+    margin: 0;
+	margin-left: -5px;
+
+    color: whitesmoke;
+    font-size: 18px;
+    font-weight: 200;
+}
+

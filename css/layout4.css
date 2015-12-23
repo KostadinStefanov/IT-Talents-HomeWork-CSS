@@ -1,0 +1,41 @@
+@CHARSET "UTF-8";
+
+
+#container {
+	width: 50%;
+	margin-left: 100px;
+}
+
+
+#container > footer, #container > header {
+	min-height: 150px;
+	background-color: blue;
+}
+
+#container > header{
+	background-color: gray;
+}
+
+#container >section {
+	margin: 10px 0;
+	min-height: 350px;
+}
+
+
+#container > section > aside {
+	width: 35%;
+	min-height: inherit;
+	display: block;
+	float: left;
+	background-color: fuchsia;
+}
+
+#container > section > article {
+	display: inline-block;
+	float: right;
+	width: 62.5%;
+	min-height: inherit;
+	background-color: lawngreen;
+}
+
+

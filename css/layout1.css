@@ -1,0 +1,54 @@
+@CHARSET "UTF-8";
+
+
+#container {
+	width: 1170px;
+	margin: 0 auto;	
+}
+
+#container > header, main  {
+	border: 1px solid grey;
+}
+
+
+#container >header{
+	min-height: 150px;
+	background-color: darkslategray;
+}
+
+
+#container > main {
+	margin: auto ;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	min-height: 400px;
+	width: 1000px;
+	background-color: darkgreen;
+
+}
+#container > footer {
+	margin: auto ;
+	margin-top: 20px;
+	width: 1000px;
+}
+
+#container > footer > section {	
+	border: 1px solid grey;
+	display: inline-block;
+	min-height: 40px;
+	width: 49%;
+	
+}
+
+ #container > footer > section.firstfooter{
+	float: left;
+	background-color: purple;
+}
+
+ #container > footer > section.secondfooter{
+	float: right;
+	background-color: blue;
+}
+
+
+
