@@ -1,0 +1,39 @@
+body {
+	background-image: url("../images/roulette.png");
+	background-repeat: no-repeat;
+}
+
+#ball {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: #ffffff;
+}
+
+#ball-orbit {
+    position:absolute;
+    width: 320px;
+    height: 320px;
+    left: 65px;
+    top: 65px;
+    border-radius: 50%;
+
+     -webkit-animation: spin-right 10s ease ;
+          animation: spin-right 10s ease ;
+}
+
+@-webkit-keyframes spin-right {
+  100% {
+    -webkit-transform: rotate(1170deg);
+        -ms-transform: rotate(1170deg);
+            transform: rotate(1170deg);
+  }
+}
+
+@keyframes spin-right {
+  100% {
+    -webkit-transform: rotate(1170deg);
+        -ms-transform: rotate(1170deg);
+            transform: rotate(1170deg);
+  }
+}
